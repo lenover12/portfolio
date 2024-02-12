@@ -644,10 +644,14 @@ https://www.tooplate.com/view/2120-Leo-resume
     margin-right: 6px; /* Adjust spacing between icons as needed */
   }
 
-  .project_stagnation_0 {
+  .project-stagnation-0 {
     background: #ffffff;
   }
 
-  .project_stagnation_1 {
+  .project-stagnation-1 {
     background: #fafafa;
+  }
+
+  .refence-subtext {
+    margin-top: 2rem;
   }
