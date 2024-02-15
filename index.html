@@ -19,10 +19,6 @@
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-leo-resume-style.css">
-<!--
-Tooplate 2120 Leo Resume
-https://www.tooplate.com/view/2120-ben-resume
--->
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
@@ -41,9 +37,6 @@ https://www.tooplate.com/view/2120-ben-resume
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <!-- <li class="nav-item">
-                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
-                    </li> -->
 
                     <li class="nav-item">
                         <a href="#about" class="nav-link smoothScroll">AboutMe</a>
@@ -68,7 +61,7 @@ https://www.tooplate.com/view/2120-ben-resume
                 </ul>
 
                 <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                    <a href="documents/Leonard McDonald CV.docx" class="custom-btn btn" download>Download CV</a>
+                    <a href="documents/Leonard_McDonald_CV.docx" class="custom-btn btn" download>Download CV</a>
                 </div>
             </div>
         </div>
@@ -82,7 +75,7 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="row">
 
                   <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="images/leo.png" lass="img-fluid" alt="Leo Resume HTML Template">
+                      <img src="images/leo.png" class="img-fluid" alt="Leo Resume HTML Template">
                   </div>
 
                    <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
@@ -120,7 +113,7 @@ https://www.tooplate.com/view/2120-ben-resume
           </div>
           <div class="col-lg-5 mx-auto col-md-6 col-12">
             <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Leo's Resume HTML Template">
-            <h7>^ Leo working hard to get his weekly tasks done!</h7>
+            <p style="color: black; font-size: 16px; font-family: Arial;" class="text-left">^ Leo working hard to get his weekly tasks done!</p>
             <p class="add-top-margin">Feel free to download my CV and shoot me an email/contact.<p>
           </div>
         </div>
@@ -138,7 +131,7 @@ https://www.tooplate.com/view/2120-ben-resume
               <div class="item">
                 <div class="testimonials-thumb d-flex">
                   <div class="testimonials-image">
-                    <img src="images/testimonials/jor.png" class="img-fluid" alt="testimonials image" href="https://www.linkedin.com/in/jordan-tuinman/">
+                    <img src="images/testimonials/jor.png" class="img-fluid" alt="testimonials image">
                   </div>
                   <div class="testimonials-info">
                     <p>"Leo likes to dive deep into projects and get them done in the best way"</p>
@@ -162,7 +155,7 @@ https://www.tooplate.com/view/2120-ben-resume
               <div class="item">
                 <div class="testimonials-thumb d-flex">
                   <div class="testimonials-image">
-                    <img src="images/testimonials/wil.png" class="img-fluid" alt="testimonials image" href="https://www.linkedin.com/in/william-sharples-24668615a/">
+                    <img src="images/testimonials/wil.png" class="img-fluid" alt="testimonials image">
                   </div>
                   <div class="testimonials-info">
                     <p>"Leo and I always compete in self-imposed challenges for GameDev, AI & Videos"</p>
@@ -191,7 +184,7 @@ https://www.tooplate.com/view/2120-ben-resume
                 <img src="images/logos/C_sharp.svg" alt="C# Logo" class="icon-image">
                 <img src="images/logos/React.svg" alt="React Logo" class="icon-image">
                 <img src="images/logos/Redux.svg" alt="Redux Logo" class="icon-image">
-                <img src="images/logos/Tailwind CSS.svg" alt="Tailwind CSS Logo" class="icon-image">
+                <img src="images/logos/Tailwind_CSS.svg" alt="Tailwind CSS Logo" class="icon-image">
                 <img src="images/logos/AWS.svg" alt="AWS Logo" class="icon-image">
                 <img src="images/logos/Git.svg" alt="Git Logo" class="icon-image">
                 <img src="images/logos/PostgreSQL.svg" alt="PostgreSQL Logo" class="icon-image">
@@ -443,7 +436,6 @@ https://www.tooplate.com/view/2120-ben-resume
      </script>
      <script>
       document.addEventListener("DOMContentLoaded", function() {
-          // Array of quotes
           var jul_quotes = [
               "\"If Leo didn’t help me put use by dates on the bread, I would have lost my job by incompetence\"",
               "\"I asked Leo to work a 5am shift for me, he said no, but I know he wanted to say yes\"",
@@ -451,16 +443,9 @@ https://www.tooplate.com/view/2120-ben-resume
               "\"Leo once made a life size cutout of himself as a gift for my birthday…\"",
           ];
   
-          // Get the current time
           var currentTime = new Date().getTime();
-  
-          // Use the current time to generate a random index
           var randomIndex = Math.abs(currentTime % jul_quotes.length);
-  
-          // Get the testimonial container for testimonial #2
           let testimonialContainer = document.getElementById("jul_testimonial");
-  
-          // Set the new quote content
           if (testimonialContainer) {
               testimonialContainer.querySelector('p').textContent = jul_quotes[randomIndex];
           }

@@ -641,7 +641,7 @@ https://www.tooplate.com/view/2120-Leo-resume
     max-width: 48px;
     width: auto;
     height: auto;
-    margin-right: 6px; /* Adjust spacing between icons as needed */
+    margin-right: 6px;
   }
 
   .project-stagnation-0 {
@@ -665,44 +665,36 @@ https://www.tooplate.com/view/2120-Leo-resume
     vertical-align: middle;
   }
 
-
-/* Media queries for responsiveness */
-
 /* Tablets (768px and below) */
 @media screen and (max-width: 768px) {
   .icon-list {
-    flex-wrap: wrap; /* Allow icons to wrap to the next line */
-    justify-content: center; /* Center icons horizontally */
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .icon-image {
-    margin-right: 12px; /* Increase spacing between icons for better readability */
+    margin-right: 12px;
   }
 
-  /* Adjustments for YouTube videos */
   .youtube-video {
-    width: 100%; /* Make the video responsive to the container */
+    width: 100%;
   }
 
-  /* Adjustments for text */
   p {
-    font-size: 16px; /* Decrease font size for better readability on smaller screens */
+    font-size: 16px;
     text-align: center;
   }
 
-  /* Center align h3 and h5 */
   h3.mobile,
   h5.mobile,
   ul.mobile {
     text-align: center;
   }
 
-  /* Reduce padding gap in section-padding */
   .section-padding {
-    padding: 3rem 0; /* Adjust as needed */
+    padding: 3rem 0;
   }
 
-  /* Center align contact form and its elements */
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -715,7 +707,7 @@ https://www.tooplate.com/view/2120-Leo-resume
   }
 
   .profile-list li {
-    white-space: normal; /* Allow line breaks */
+    white-space: normal;
   }
 
   .email-li {
@@ -728,13 +720,12 @@ https://www.tooplate.com/view/2120-Leo-resume
 /* Smartphones (480px and below) */
 @media screen and (max-width: 480px) {
   .icon-image {
-    max-height: 36px; /* Decrease icon size for better fit on smaller screens */
+    max-height: 36px;
     max-width: 36px;
-    margin-right: 8px; /* Further reduce spacing between icons */
+    margin-right: 8px;
   }
 
-  /* Adjustments for text */
   p {
-    font-size: 14px; /* Further decrease font size for better readability */
+    font-size: 14px;
   }
 }
