@@ -665,11 +665,23 @@ https://www.tooplate.com/view/2120-Leo-resume
     text-align: center;
   }
 
-.youtube-video {
+  .youtube-video {
     display: inline-block;
     vertical-align: middle;
   }
 
+  p.project-subheading {
+    color: rgb(161, 134, 0);
+    line-height: 0;
+    font-weight: bold;
+  }
+
+  p.default-styling {
+    color: black;
+    font-size: 16px;
+    font-family: Arial;
+  }  
+  
 /* Tablets (768px and below) */
 @media screen and (max-width: 768px) {
   .icon-list {
@@ -692,8 +704,15 @@ https://www.tooplate.com/view/2120-Leo-resume
 
   h3.mobile,
   h5.mobile,
-  ul.mobile {
+  ul.mobile
+  {
     text-align: center;
+  }
+
+  img.mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section-padding {

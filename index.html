@@ -113,7 +113,7 @@
           </div>
           <div class="col-lg-5 mx-auto col-md-6 col-12">
             <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Leo's Resume HTML Template">
-            <p style="color: black; font-size: 16px; font-family: Arial;" class="text-left">^ Leo working hard to get his weekly tasks done!</p>
+            <p class="default-styling text-left">^ Leo working hard to get his weekly tasks done!</p>
             <p class="add-top-margin">Feel free to download my CV and shoot me an email/contact.<p>
           </div>
         </div>
@@ -177,7 +177,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-12">
-              <h3 class="mb-4 mobile">Product Tracking Reactive WebApp</h3>           
+              <h3 class="mb-4 mobile">Product Tracking Reactive WebApp</h3>
+              <p class="mobile project-subheading">university project</p>           
               <p>Created as the capstone project of The Bachelor of IT degree, Leo [full-stack dev] and 5 other group members worked together to develop a product price tracking web application (Runescrape). Throughout the 13-week project, our team adhered to the Agile methodology, dividing tasks and meeting weekly with a lecturer acting as our client, while daily stand-up communications kept us aligned with our goals.</p>
               <div class="icon-list">
                 <img src="images/logos/dotNET.svg" alt=".NET Logo" class="icon-image">
@@ -267,13 +268,14 @@
           <div class="row reset-margin">
             <div class="col-lg-5 mx-auto col-md-6 col-12">
               <div class="col-12">
-                <img src="images/project/facemesh/facemesh.gif" class="about-image img-fluid" alt="facemesh">
+                <h3 class="mb-4 mobile">Live LipSync in Minecraft</h3>
+              <p class="project-subheading mobile">personal project</p>           
+              <img src="images/project/facemesh/facemesh.gif" class="about-image img-fluid" alt="facemesh">
+                <p>A live lip-sync project using Python, OpenCV, and MediaPipe to map facial landmarks, process, & transfer data over the network in real-time from webcam.</p>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
               <div class="col-12">
-                <h3 class="mb-4 mobile">Live LipSync in Minecraft</h3>
-                <p>A live lip-sync project using Python, OpenCV, and MediaPipe to map facial landmarks, process, & transfer data over the network in real-time from webcam.</p>
                 <p>The system analyses facial contours, measures distances between key points, and correlates them with nine basic mouth shapes and phonetic symbols. Using the MCRCON library to connect to a Minecraft server, it updates an in-game character's model, syncing mouth and eyebrow movements with real-time facial expressions at Minecraft's limit of 20 ticks per second.</p>
                 <p>Facemesh was chosen for its efficiency, essential for this project's multiplayer functionality. Unlike phonetic transcription libraries like pocketsphinx, which have significant delays and provide somewhat inaccurate results, Facemesh offers real-time processing and greater accuracy.</p>
                 <div class="col-12">
@@ -290,22 +292,60 @@
           </div>
         </div>
       </div>
-      
-
+    
       <div class="project-stagnation-0">
         <div class="container about section-padding">
           <div class="row reset-margin">
             <div class="col-lg-5 mx-auto col-md-6 col-12">
               <div class="col-12">
+                <h3 class="mb-4 mobile">LoRA/LoCon Website</h3>
+              <p class="mobile project-subheading">personal project</p>           
+              <p>This NodeJS website serves as a platform for organising and downloading LoRA's and LoCon's, leveraging the Civitai API. LoRA's, or "Learning Oriented Representations of Artifacts," are machine learning models crucial for AI Art generation.</p>
+                <p>The challenge arose from inaccuracies in Civitai's API filters, which erroneously included additional model versions like SD1.0 and SD1.1 alongside versions 1.4 and 1.5. To address this issue, I developed a sophisticated filtration system that accurately identifies and removes these extraneous models, ensuring users can access only the intended versions.</p>
+                <div class="row reset-margin">
+                  <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/project/lora-downloader/lora-example.png" class="img-fluid mobile" alt="LoRA example">
+                  </div>
+                  <div class="col-lg-7 mx-auto col-md-6 col-12">
+                    <img src="images/project/lora-downloader/downloads.png" class="img-fluid add-top-margin" alt="LoRA download">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="col-12">
+                <p>Moreover, to enhance user experience and streamline AI Art testing, I implemented features to download cover images and extract trigger words associated with each LoRA model. These trigger words, categorised based on user selection, facilitate batch testing and experimentation, optimising the creative process.</p>
+                <img src="images/project/lora-downloader/webpage.png" class="about-image img-fluid" alt="LoRA webpage">
+                <p>Beyond its functional utility, this project served as a valuable opportunity for personal growth and skill development. By designing and implementing both frontend and backend components, I honed my proficiency in web development and expanded my knowledge of API integration.</p>
+                <div class="col-12">
+                  <div class="icon-list">
+                    <img src="images/logos/HTML5.svg" alt="HTML5 Logo" class="icon-image">
+                    <img src="images/logos/CSS3.svg" alt="CSS3 Logo" class="icon-image">
+                    <img src="images/logos/JavaScript.svg" alt="JavaScript Logo" class="icon-image">
+                    <img src="images/logos/NodeJS.svg" alt="NodeJS Logo" class="icon-image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-stagnation-1">
+        <div class="container about section-padding">
+          <div class="row reset-margin">
+            <div class="col-lg-5 mx-auto col-md-6 col-12">
+              <div class="col-12">
                 <h3 class="mb-4 mobile">Language Lookup-Table Translator/Generator</h3>
-                <p>A multilingual translation utility tailored for application and game development that generates JSON dictionaries serving as lookup tables. It harnesses various resources, such as the <strong>Translate library</strong>, <strong>Hugging Face models</strong>, <strong>Azure API</strong>, and <strong>Docker</strong> technology, to translate text across 120 languages. Employing multiple translation methods extends beyond conventional Google Translate coverage limitations and allows for custom JSON dictionary translations and allows the inclusion of special unicode characters.</p>
+              <p class="mobile project-subheading">personal project</p>           
+              <p>A multilingual translation utility tailored for application and game development that generates JSON dictionaries serving as lookup tables. It harnesses various resources, such as the <strong>Translate library</strong>, <strong>Hugging Face models</strong>, <strong>Azure API</strong>, and <strong>Docker</strong> technology, to translate text across 120 languages. Employing multiple translation methods extends beyond conventional Google Translate coverage limitations and allows for custom JSON dictionary translations and allows the inclusion of special unicode characters.</p>
                 <h5 class="mobile">Lookup Table Use Example</h5>
                 <img src="images/project/lang/card_spanish.png" class="img-fluid" alt="translation example">
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-12">
               <div class="col-12">
-                <img src="images/project/lang/lang_translations.png" class="about-image img-fluid" alt="language translations">
+                <img src="images/project/lang/lang_translations.png" class="about-image img-fluid add-top-margin" alt="language translations">
                 <p>The produced lookup tables host translation codes that serve localization needs in platforms like gaming, software, and web environments. Rather than aiming to revolutionize language barriers, the utility embraces simplicity, offering a cost-effective, hobbyist-friendly approach to facilitating multilingual communication within these frameworks.</p>
               </div>
               <div class="col-12">
