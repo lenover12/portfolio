@@ -656,6 +656,11 @@ https://www.tooplate.com/view/2120-Leo-resume
     margin-top: 2rem;
   }
 
+  .reset-margin {
+    margin-right:0px;
+    margin-left:0px
+  }
+
   .youtube-container {
     text-align: center;
   }
