@@ -1,620 +1,704 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-     <title>Leo's Simple Portfolio</title>
+  <title>Leo's Simple Portfolio</title>
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="Tooplate">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Tooplate">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-leo-resume-style.css">
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/tooplate-leo-resume-style.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-    <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
+  <!-- MENU BAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
 
-            <a class="navbar-brand" href="#">
-                Leo's Portfolio
+      <a class="navbar-brand" href="#">
+        Leo's Portfolio
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item">
+            <a href="#about" class="nav-link smoothScroll">AboutMe</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link smoothScroll">References</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#projects" class="nav-link smoothScroll">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#tech" class="nav-link smoothScroll">Tech</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link smoothScroll">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+          <a href="https://bucketofopportunity.s3.us-east-2.amazonaws.com/Leonard+McDonald+CV-.docx"
+            class="custom-btn btn" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- HERO -->
+  <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="mx-auto col-lg-5 col-md-5 col-10">
+          <img src="images/leo.png" class="img-fluid" alt="Leo Resume HTML Template">
+        </div>
+
+        <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+          <div class="hero-text">
+
+            <h1 class="hero-title">👋 Leo's Portfolio Site</h1>
+
+            <a href="mailto:lennymcdonald247@hotmail.com" class="email-link">
+              Email Me!
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+  <!-- ABOUT ME -->
+  <section class="about section-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <h3 class="mb-4">About Me</h3>
+          <p>I'm Leo, a recent graduate (2024) of a <strong>Bachelor of IT</strong> from <strong>RMIT
+              University</strong> with a focus on <strong>software development</strong> and <strong>full-stack web
+              development</strong>.</p>
+          <p>I created this webpage to showcase a couple of the recent projects I accomplished alongside my study in my
+            spare time, as well as the recent capstone project of my degree which showcases excellence in teamwork &
+            following the agile software development life-cycle.</p>
+          <p>Finishing my degree with a distinction while pursuing personal projects and working shows my interest in
+            technology, commitment, follow-through, and attitude towards teamwork and self-learning.</p>
+          <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+            <li><strong>Full Name :</strong> Leonard John McDonald</li>
+            <li><strong>Date of Birth:</strong> 03rd December 1991</li>
+            <!-- <li><strong>Website :</strong> https://lenover12.github.io/portfolio/</li> -->
+            <li><strong>Email :</strong> lennymcdonald247@hotmail.com</li>
+            <!-- <li class="email-li"><strong>Email :</strong> lennymcdonald247@hotmail.com</li> -->
+            <li><strong>Work Rights :</strong> Australian Citizen</li>
+          </ul>
+        </div>
+        <div class="col-lg-5 mx-auto col-md-6 col-12">
+          <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Leo's Resume HTML Template">
+          <p class="default-styling text-left">^ Leo working hard to get his weekly tasks done!</p>
+          <p class="add-top-margin">Feel free to download my CV and shoot me an email/contact.
+          <p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link smoothScroll">AboutMe</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a href="#testimonials" class="nav-link smoothScroll">References</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#projects" class="nav-link smoothScroll">Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a href="#tech" class="nav-link smoothScroll">Tech</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
-                    </li>
-
-                </ul>
-
-                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                    <a href="documents/Leonard_McDonald_CV.docx" class="custom-btn btn" download>Download CV</a>
+  <!-- TESTIMONIAL -->
+  <section class="testimonials section-padding" id="testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="mb-5 text-center">What Leo's friends & previous coworkers say!</h3>
+          <div class="owl-carousel owl-theme" id="testimonials-carousel">
+            <div class="item">
+              <div class="testimonials-thumb d-flex">
+                <div class="testimonials-image">
+                  <img src="images/testimonials/jor.png" class="img-fluid" alt="testimonials image">
                 </div>
+                <div class="testimonials-info">
+                  <p>"Leo likes to dive deep into projects and get them done in the best way"</p>
+                  <h6 class="mb-0">Jordan</h6>
+                  <span>Full-stack Developer | Friend</span>
+                </div>
+              </div>
             </div>
-        </div>
-    </nav>
-
-
-    <!-- HERO -->
-    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
-
-         <div class="container">
-            <div class="row">
-
-                  <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="images/leo.png" class="img-fluid" alt="Leo Resume HTML Template">
-                  </div>
-
-                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                        <div class="hero-text">
-
-                            <h1 class="hero-title">👋 Leo's Portfolio Site</h1>
-
-                            <a href="mailto:lennymcdonald247@hotmail.com" class="email-link">
-                                Email Me!
-                            </a>
-                          
-                        </div>
-                    </div>
+            <div class="item">
+              <div class="testimonials-thumb d-flex">
+                <div class="testimonials-image">
+                  <img src="images/testimonials/jul.png" class="img-fluid" alt="testimonials image">
+                </div>
+                <div class="testimonials-info" id="jul_testimonial">
+                  <p>"Leo asked me for a quote but I don’t know what to say."</p>
+                  <h6 class="mb-0">Juliette</h6>
+                  <span>Bakery Manager | Friend</span>
+                </div>
+              </div>
             </div>
+            <div class="item">
+              <div class="testimonials-thumb d-flex">
+                <div class="testimonials-image">
+                  <img src="images/testimonials/wil.png" class="img-fluid" alt="testimonials image">
+                </div>
+                <div class="testimonials-info">
+                  <p>"Leo and I always compete in self-imposed challenges for GameDev, AI & Videos"</p>
+                  <h6 class="mb-0">William</h6>
+                  <span>Game Development Teacher | Friend</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+      <p class="text-center add-top-margin">work related references available on request</p>
+    </div>
+  </section>
 
-    <!-- ABOUT ME -->
-    <section class="about section-padding" id="about">
+  <!-- PROJECTS -->
+  <section class="about section-padding" id="projects">
+    <div class="project-stagnation-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12">
-            <h3 class="mb-4">About Me</h3>
-            <p>I'm Leo, a recent graduate (2024) of a <strong>Bachelor of IT</strong> from <strong>RMIT University</strong> with a focus on <strong>software development</strong> and <strong>full-stack web development</strong>.</p>
-            <p>I created this webpage to showcase a couple of the recent projects I accomplished alongside my study in my spare time, as well as the recent capstone project of my degree which showcases excellence in teamwork & following the agile software development life-cycle.</p>
-            <p>Finishing my degree with a distinction while pursuing personal projects and working shows my interest in technology, commitment, follow-through, and attitude towards teamwork and self-learning.</p>
-            <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
-              <li><strong>Full Name :</strong> Leonard John McDonald</li>
-              <li><strong>Date of Birth:</strong> 03rd December 1991</li>
-              <!-- <li><strong>Website :</strong> https://lenover12.github.io/portfolio/</li> -->
-              <li><strong>Email :</strong> lennymcdonald247@hotmail.com</li>
-              <!-- <li class="email-li"><strong>Email :</strong> lennymcdonald247@hotmail.com</li> -->
-              <li><strong>Work Rights :</strong> Australian Citizen</li>
-            </ul>
+            <h3 class="mb-4 mobile">Product Tracking Reactive WebApp</h3>
+            <p class="mobile project-subheading">university project (group)</p>
+            <p>Created as the capstone project of The Bachelor of IT degree, Leo [full-stack dev] and 5 other group
+              members worked together to develop a product price tracking web application (Runescrape). Throughout the
+              13-week project, our team adhered to the Agile methodology, dividing tasks and meeting weekly with a
+              lecturer acting as our client, while daily stand-up communications kept us aligned with our goals.</p>
+            <div class="icon-list">
+              <img src="images/logos/dotNET.svg" alt=".NET Logo" class="icon-image">
+              <img src="images/logos/C_sharp.svg" alt="C# Logo" class="icon-image">
+              <img src="images/logos/React.svg" alt="React Logo" class="icon-image">
+              <img src="images/logos/Redux.svg" alt="Redux Logo" class="icon-image">
+              <img src="images/logos/Tailwind_CSS.svg" alt="Tailwind CSS Logo" class="icon-image">
+              <img src="images/logos/AWS.svg" alt="AWS Logo" class="icon-image">
+              <img src="images/logos/Git.svg" alt="Git Logo" class="icon-image">
+              <img src="images/logos/PostgreSQL.svg" alt="PostgreSQL Logo" class="icon-image">
+              <img src="images/logos/Vercel.svg" alt="Vercel Logo" class="icon-image">
+              <img src="images/logos/Azure.svg" alt="Azure Logo" class="icon-image">
+              <img src="images/logos/Postman.svg" alt="Postman Logo" class="icon-image">
+            </div>
           </div>
           <div class="col-lg-5 mx-auto col-md-6 col-12">
-            <img src="images/true-agency.jpg" class="about-image img-fluid" alt="Leo's Resume HTML Template">
-            <p class="default-styling text-left">^ Leo working hard to get his weekly tasks done!</p>
-            <p class="add-top-margin">Feel free to download my CV and shoot me an email/contact.<p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- TESTIMONIAL -->
-    <section class="testimonials section-padding" id="testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="mb-5 text-center">What Leo's friends & previous coworkers say!</h3>
-            <div class="owl-carousel owl-theme" id="testimonials-carousel">
-              <div class="item">
-                <div class="testimonials-thumb d-flex">
-                  <div class="testimonials-image">
-                    <img src="images/testimonials/jor.png" class="img-fluid" alt="testimonials image">
-                  </div>
-                  <div class="testimonials-info">
-                    <p>"Leo likes to dive deep into projects and get them done in the best way"</p>
-                    <h6 class="mb-0">Jordan</h6>
-                    <span>Full-stack Developer | Friend</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonials-thumb d-flex">
-                  <div class="testimonials-image">
-                    <img src="images/testimonials/jul.png" class="img-fluid" alt="testimonials image">
-                  </div>
-                  <div class="testimonials-info" id="jul_testimonial">
-                    <p>"Leo asked me for a quote but I don’t know what to say."</p>
-                    <h6 class="mb-0">Juliette</h6>
-                    <span>Bakery Manager | Friend</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonials-thumb d-flex">
-                  <div class="testimonials-image">
-                    <img src="images/testimonials/wil.png" class="img-fluid" alt="testimonials image">
-                  </div>
-                  <div class="testimonials-info">
-                    <p>"Leo and I always compete in self-imposed challenges for GameDev, AI & Videos"</p>
-                    <h6 class="mb-0">William</h6>
-                    <span>Game Development Teacher | Friend</span>
-                  </div>
-                </div>
-              </div>
+            <p>Demonstration of the final product (Runescrape)</p>
+            <div class="youtube-container">
+              <iframe class="youtube-video" width="560" height="315"
+                src="https://www.youtube-nocookie.com/embed/ywq7_cqAu7Y?si=SXppPTZSddS8zCbS&amp;controls=1&showinfo=0&color=yellow"
+                title="Demonstration Video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             </div>
           </div>
         </div>
-        <p class= "text-center add-top-margin">work related references available on request</p>
-      </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="about section-padding" id="projects">
-      <div class="project-stagnation-0">
-        <div class="container">
+        <br>
+        <div class="faq">
+          <h5>In-depth explanation</h5>
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-12">
-              <h3 class="mb-4 mobile">Product Tracking Reactive WebApp</h3>
-              <p class="mobile project-subheading">university project (group)</p>           
-              <p>Created as the capstone project of The Bachelor of IT degree, Leo [full-stack dev] and 5 other group members worked together to develop a product price tracking web application (Runescrape). Throughout the 13-week project, our team adhered to the Agile methodology, dividing tasks and meeting weekly with a lecturer acting as our client, while daily stand-up communications kept us aligned with our goals.</p>
-              <div class="icon-list">
-                <img src="images/logos/dotNET.svg" alt=".NET Logo" class="icon-image">
-                <img src="images/logos/C_sharp.svg" alt="C# Logo" class="icon-image">
-                <img src="images/logos/React.svg" alt="React Logo" class="icon-image">
-                <img src="images/logos/Redux.svg" alt="Redux Logo" class="icon-image">
-                <img src="images/logos/Tailwind_CSS.svg" alt="Tailwind CSS Logo" class="icon-image">
-                <img src="images/logos/AWS.svg" alt="AWS Logo" class="icon-image">
-                <img src="images/logos/Git.svg" alt="Git Logo" class="icon-image">
-                <img src="images/logos/PostgreSQL.svg" alt="PostgreSQL Logo" class="icon-image">
-                <img src="images/logos/Vercel.svg" alt="Vercel Logo" class="icon-image">
-                <img src="images/logos/Azure.svg" alt="Azure Logo" class="icon-image">
-                <img src="images/logos/Postman.svg" alt="Postman Logo" class="icon-image">
-              </div>
-            </div>
-            <div class="col-lg-5 mx-auto col-md-6 col-12">
-              <p>Demonstration of the final product (Runescrape)</p>
-              <div class="youtube-container">
-                <iframe class="youtube-video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ywq7_cqAu7Y?si=SXppPTZSddS8zCbS&amp;controls=1&showinfo=0&color=yellow" title="Demonstration Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-          <br>
-          <div class="faq">
-            <h5>In-depth explanation</h5> 
-            <div class="row">
-              <div class="col-lg-12 col-12">
-                <div class="accordion" id="accordionExample">
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Backend Technology
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <p>We adopted a bifurcated architecture, employing ASP.NET and C# for the backend, which enabled us to implement ASP.NET Identity for user authentication and Entity Framework for seamless database integration with PostgreSQL.</p>
-                        <p>For website scraping, we employed the "browserless" browser service which managed headless Chrome instances.</p>
-                      </div>
+            <div class="col-lg-12 col-12">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Backend Technology
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We adopted a bifurcated architecture, employing ASP.NET and C# for the backend, which enabled
+                        us to implement ASP.NET Identity for user authentication and Entity Framework for seamless
+                        database integration with PostgreSQL.</p>
+                      <p>For website scraping, we employed the "browserless" browser service which managed headless
+                        Chrome instances.</p>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Frontend Technology
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <p>On the frontend, we utilised REACT and tailwind CSS, employing a component-based architecture to expedite development. Hosting was split   between Vercel for the frontend and Azure for the backend API. AWS housed our production database.</p>
-                      </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Frontend Technology
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>On the frontend, we utilised REACT and tailwind CSS, employing a component-based architecture
+                        to expedite development. Hosting was split between Vercel for the frontend and Azure for the
+                        backend API. AWS housed our production database.</p>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Collaboration
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                      <div class="card-body">
-                        <p>GitHub served as our collaboration platform, with a 'development' branch for weekly iterations and a 'main' branch for deployment-ready code. Weekly iterations were subject to rigorous unit tests before merging with 'main'.</p>
-                      </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collaboration
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>GitHub served as our collaboration platform, with a 'development' branch for weekly iterations
+                        and a 'main' branch for deployment-ready code. Weekly iterations were subject to rigorous unit
+                        tests before merging with 'main'.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="text-right">
-            <p>we received a grade of 91 for this project</p>
-          </div>
-          <div class="row about-third">
-            <!-- temporary padding -->
-          </div>
+        </div>
+        <div class="text-right">
+          <p>we received a grade of 91 for this project</p>
+        </div>
+        <div class="row about-third">
+          <!-- temporary padding -->
         </div>
       </div>
+    </div>
 
-      <div class="project-stagnation-1">
-        <div class="container about section-padding">
-          <div class="row reset-margin">
-            <div class="col-lg-5 mx-auto col-md-6 col-12">
-              <div class="col-12">
-                <h3 class="mb-4 mobile">Live LipSync in Minecraft</h3>
-              <p class="project-subheading mobile">personal project</p>           
+    <div class="project-stagnation-1">
+      <div class="container about section-padding">
+        <div class="row reset-margin">
+          <div class="col-lg-5 mx-auto col-md-6 col-12">
+            <div class="col-12">
+              <h3 class="mb-4 mobile">Live LipSync in Minecraft</h3>
+              <p class="project-subheading mobile">personal project</p>
               <img src="images/project/facemesh/facemesh.gif" class="about-image img-fluid" alt="facemesh">
-                <p>A live lip-sync project using Python, OpenCV, and MediaPipe to map facial landmarks, process, & transfer data over the network in real-time from webcam.</p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="col-12">
-                <p>The system analyses facial contours, measures distances between key points, and correlates them with nine basic mouth shapes and phonetic symbols. Using the MCRCON library to connect to a Minecraft server, it updates an in-game character's model, syncing mouth and eyebrow movements with real-time facial expressions at Minecraft's limit of 20 ticks per second.</p>
-                <p>Facemesh was chosen for its efficiency, essential for this project's multiplayer functionality. Unlike phonetic transcription libraries like pocketsphinx, which have significant delays and provide somewhat inaccurate results, Facemesh offers real-time processing and greater accuracy.</p>
-                <div class="col-12">
-                  <div class="icon-list">
-                    <img src="images/logos/Python.svg" alt="Python Logo" class="icon-image">
-                    <img src="images/logos/MediaPipe.svg" alt="Mediapipe Logo" class="icon-image">
-                    <img src="images/logos/OpenCV.svg" alt="OpenCV Logo" class="icon-image">
-                    <img src="images/logos/CLI.svg" alt="CLI Logo" class="icon-image">
-                    <img src="images/logos/McFunction.svg" alt="McFunction Logo" class="icon-image">
-                  </div>
-                </div>
-              </div>
+              <p>A live lip-sync project using Python, OpenCV, and MediaPipe to map facial landmarks, process, &
+                transfer data over the network in real-time from webcam.</p>
             </div>
           </div>
-        </div>
-      </div>
-    
-      <div class="project-stagnation-0">
-        <div class="container about section-padding">
-          <div class="row reset-margin">
-            <div class="col-lg-5 mx-auto col-md-6 col-12">
-              <div class="col-12">
-                <h3 class="mb-4 mobile">LoRA/LoCon Website</h3>
-              <p class="mobile project-subheading">personal project</p>           
-              <p>This NodeJS website serves as a platform for organising and downloading LoRA's and LoCon's, leveraging the Civitai API. LoRA's, or "Learning Oriented Representations of Artifacts," are machine learning models crucial for AI Art generation.</p>
-                <p>The challenge arose from inaccuracies in Civitai's API filters, which erroneously included additional model versions like SD1.0 and SD1.1 alongside versions 1.4 and 1.5. To address this issue, I developed a sophisticated filtration system that accurately identifies and removes these extraneous models, ensuring users can access only the intended versions.</p>
-                <div class="row reset-margin add-top-margin">
-                  <div class="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="images/project/lora-downloader/lora-example.png" class="img-fluid mobile" alt="LoRA example">
-                  </div>
-                  <div class="col-lg-7 mx-auto col-md-6 col-12">
-                    <img src="images/project/lora-downloader/downloads.png" class="img-fluid add-top-margin" alt="LoRA download">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="col-12">
-                <p>Moreover, to enhance user experience and streamline AI Art testing, I implemented features to download cover images and extract trigger words associated with each LoRA model. These trigger words, categorised based on user selection, facilitate batch testing and experimentation, optimising the creative process.</p>
-                <img src="images/project/lora-downloader/webpage.png" class="about-image img-fluid" alt="LoRA webpage">
-                <p class="add-top-margin">Beyond its functional utility, this project served as a valuable opportunity for personal growth and skill development. By designing and implementing both frontend and backend components, I honed my proficiency in web development and expanded my knowledge of API integration.</p>
-                <div class="col-12">
-                  <div class="icon-list">
-                    <img src="images/logos/HTML5.svg" alt="HTML5 Logo" class="icon-image">
-                    <img src="images/logos/CSS3.svg" alt="CSS3 Logo" class="icon-image">
-                    <img src="images/logos/JavaScript.svg" alt="JavaScript Logo" class="icon-image">
-                    <img src="images/logos/NodeJS.svg" alt="NodeJS Logo" class="icon-image">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-stagnation-1">
-        <div class="container about section-padding">
-          <div class="row reset-margin">
-            <div class="col-lg-6 mx-auto col-md-6 col-12">
-              <div class="col-12">
-                <h3 class="mb-4 mobile">AWS deployed Webapp - MineDev</h3>
-                <p class="mobile project-subheading">university project (solo)</p>
-                <p>MineDev is a web application designed to support Minecraft Datapack & Resource pack developers in their creations and facilitate sharing with the Minecraft community. Utilizing Amazon Web Services (AWS) infrastructure, MineDev offers a range of tools.</p>
-                <p>The project leverages AWS services like Elastic Beanstalk, API Gateway, Lambda, DynamoDB, and S3 to ensure scalability, reliability, and seamless functionality. Additionally, testing and deployment were facilitated by tools such as Boto3 for AWS automation, Gunicorn for deploying Python web applications, Putty for SSH connectivity, FileZilla for file transfer, and Jinja for templating.</p>
-              </div>
-            </div>
-            <div class="col-lg-6 mx-auto col-md-6 col-12">
-              <div class="col-12">
-                <p>Minedev System Architecture</p>
-                <div class="add-top-margin lucidchart-container">
-                    <img src="images/project/minedev/system-architecture.jpeg" class="lucidchart-fallback-image" alt="lucidchart system architecture">
-                    <iframe allowfullscreen frameborder="0" src="https://lucid.app/documents/embedded/7743ef8b-027c-4a38-9901-88c0b76cb18b" id="lucidchart-frame"></iframe>
-                </div>
-              </div>            
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="icon-list">
-              <img src="images/logos/FileZilla.svg" alt="FileZilla Logo" class="icon-image">
-              <img src="images/logos/PuTTY.svg" alt="PuTTY Logo" class="icon-image">
-              <img src="images/logos/AWS.svg" alt="AWS Logo" class="icon-image">
-              <img src="images/logos/AWS/API-Gateway.svg" alt="API-Gateway Logo" class="icon-image">
-              <img src="images/logos/AWS/DynamoDB.svg" alt="DynamoDB Logo" class="icon-image">
-              <img src="images/logos/AWS/S3.svg" alt="S3 Logo" class="icon-image">
-              <img src="images/logos/AWS/Elastic-Beanstalk.svg" alt="Elastic-Beanstalk Logo" class="icon-image">
-              <img src="images/logos/AWS/Lambda.svg" alt="Lambda Logo" class="icon-image">
-              <img src="images/logos/HTML5.svg" alt="HTML5 Logo" class="icon-image">
-              <img src="images/logos/CSS3.svg" alt="CSS3 Logo" class="icon-image">
-              <img src="images/logos/React.svg" alt="React Logo" class="icon-image">
-              <img src="images/logos/Jinja_0.svg" alt="Jinja Logo" class="icon-image">
-              <img src="images/logos/Boto3_0.svg" alt="Boto3 Logo" class="icon-image">
-              <img src="images/logos/Mojang_Studios.svg" alt="Mojang Studios Logo" class="icon-image">
-            </div>
-          </div>
-          <div class="faq add-top-margin">
-            <h5 style="margin-left:15px">Pages of MineDev</h5> 
-            <div class="row pc-anti-flex reset-margin">
-              <div class="col-lg-12 col-12">
-                <div class="accordion" id="accordionExample_2">
-                  <div class="card">
-                    <div class="card-header" id="headingFour">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                          Book Gen & Localization
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample_2">
-                      <div class="card-body">
-                        <div class="row reset-margin">
-                          <div class="col-lg-5 mx-auto col-md-6 col-12">
-                            <div id="book-styling">
-                              <div class="textarea-container">
-                                <img src="images/project/minedev/book_background.png" alt="Book Background Image" class="book-background">
-                                <textarea name="book_text" id="book-text" placeholder="Book text goes here" rows="5" cols="50" required></textarea><br>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-5 mx-auto col-md-6 col-12 add-top-margin">
-                              <p>Utilising a Python library for translations and a custom made JSON string text generator, users are able to translate text into another language and send the result to the book generator page. This tool generates commands that can be executed in Minecraft to create a book item with custom content sporting coloured text formatting and more.</p>
-                              <p class="add-top-margin">type onto the paper for a bare bones example of this functionality</p>
-                          </div>
-                          <div class="col-lg-12 col-12">
-                            <p style="font-family:Arial; text-align: center;">↶ command output ↷</p>
-                            <div class="mx-auto add-top-margin">
-                              <div id="book-text-output">
-                                <div class="mobile break-word"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFive">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                          Block Information
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample_2">
-                      <div class="card-body">
-                        <div class="row reset-margin">
-                          <div class="col-lg-5 mx-auto col-md-6 col-12">
-                              <p>In DynamoDB, MineDev hosts Minecraft block and item information initially scraped from the Minecraft Wiki. Using the search or random function, users can find information on any Minecraft item, block, or topic that has an associated wiki page.</p>
-                              <p>Interaction with DynamoDB is managed by AWS Lambda functions and API Gateway.</p>
-                            </div>
-                            <div class="col-lg-5 mx-auto col-md-6 col-12">
-                              <img src="images/project/minedev/block-information.webp" class="about-image img-fluid mobile" alt="LoRA example">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingSix">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                          Server & Player Lookup
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample_2">
-                      <div class="card-body">
-                        <div class="row reset-margin">
-                          <div class="col-lg-5 mx-auto col-md-6 col-12">
-                              <p>The Server Lookup and Player Lookup pages of MineDev serve distinct yet complementary functions. Server lookup allows users to check the status of Minecraft servers by sending requests via the Server List Ping API, providing details such as player count and server version. Concurrently, player lookup retrieves player information and skin textures using the Mojang API based on the provided username or UUID</p>
-                          </div>
-                          <div class="col-lg-5 mx-auto col-md-6 col-12">
-                            <div class="player-lookup-container">
-                                <h5>Player Lookup</h5>
-                                <input type="text" id="playerName" placeholder="search user">
-                                <button onclick="lookupPlayer()">Search</button>
-                                <div id="playerInfo"></div>
-                            </div>
-                          </div>                        
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="headingSeven">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                          Networking Forum
-                        </button>
-                      </h2>
-                    </div>
-                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample_2">
-                      <div class="card-body">
-                        <div class="row reset-margin">
-                              <p>The Networking page of MineDev provides a platform for users to share their latest creations and engage with the Minecraft community. Users can post content, including images and file downloads, directly onto the singular forum-style interface. Content uploads are managed through AWS S3, where images and files are stored and accessed.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="text-right">
-            <p>I received a grade of 88 for this class</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-stagnation-0">
-        <div class="container about section-padding">
-          <div class="row reset-margin">
-            <div class="col-lg-5 mx-auto col-md-6 col-12">
-              <div class="col-12">
-                <h3 class="mb-4 mobile">Language Lookup-Table Translator/Generator</h3>
-              <p class="mobile project-subheading">personal project</p>           
-              <p>A multilingual translation utility tailored for application and game development that generates JSON dictionaries serving as lookup tables. It harnesses various resources, such as the <strong>Translate library</strong>, <strong>Hugging Face models</strong>, <strong>Azure API</strong>, and <strong>Docker</strong> technology, to translate text across 120 languages. Employing multiple translation methods extends beyond conventional Google Translate coverage limitations and allows for custom JSON dictionary translations and allows the inclusion of special unicode characters.</p>
-                <h5 class="mobile">Lookup Table Use Example</h5>
-                <img src="images/project/lang/card_spanish.png" class="img-fluid" alt="translation example">
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="col-12">
-                <img src="images/project/lang/lang_translations.png" class="about-image img-fluid add-top-margin" alt="language translations">
-                <p>The produced lookup tables host translation codes that serve localization needs in platforms like gaming, software, and web environments. Rather than aiming to revolutionize language barriers, the utility embraces simplicity, offering a cost-effective, hobbyist-friendly approach to facilitating multilingual communication within these frameworks.</p>
-              </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-12">
+              <p>The system analyses facial contours, measures distances between key points, and correlates them with
+                nine basic mouth shapes and phonetic symbols. Using the MCRCON library to connect to a Minecraft server,
+                it updates an in-game character's model, syncing mouth and eyebrow movements with real-time facial
+                expressions at Minecraft's limit of 20 ticks per second.</p>
+              <p>Facemesh was chosen for its efficiency, essential for this project's multiplayer functionality. Unlike
+                phonetic transcription libraries like pocketsphinx, which have significant delays and provide somewhat
+                inaccurate results, Facemesh offers real-time processing and greater accuracy.</p>
               <div class="col-12">
                 <div class="icon-list">
                   <img src="images/logos/Python.svg" alt="Python Logo" class="icon-image">
-                  <img src="images/logos/GoogleTranslate.svg" alt="GoogleTranslate Logo" class="icon-image">
-                  <img src="images/logos/JSON.svg" alt="JSON Logo" class="icon-image">
-                  <img src="images/logos/Azure.svg" alt="Azure Logo" class="icon-image">
-                  <img src="images/logos/huggingface.svg" alt="huggingface Logo" class="icon-image">
+                  <img src="images/logos/MediaPipe.svg" alt="Mediapipe Logo" class="icon-image">
+                  <img src="images/logos/OpenCV.svg" alt="OpenCV Logo" class="icon-image">
+                  <img src="images/logos/CLI.svg" alt="CLI Logo" class="icon-image">
+                  <img src="images/logos/McFunction.svg" alt="McFunction Logo" class="icon-image">
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container about section-padding">
-          <div class="text-center col-12">
-            <h6>There are more projects & additional details for each one, so don't hesitate to ask me in an interview ;)</h6>
-          </div>
-        </div>
       </div>
-    </section>
+    </div>
 
-    <!-- ToTeSk -->
-     <section class="about project-stagnation-1" id="tech">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-12">
-            <h3 class="mb-5 text-center add-top-margin">Tools</h3>
-            <div id="markdown-content-tools"></div>
+    <div class="project-stagnation-0">
+      <div class="container about section-padding">
+        <div class="row reset-margin">
+          <div class="col-lg-5 mx-auto col-md-6 col-12">
+            <div class="col-12">
+              <h3 class="mb-4 mobile">LoRA/LoCon Website</h3>
+              <p class="mobile project-subheading">personal project</p>
+              <p>This NodeJS website serves as a platform for organising and downloading LoRA's and LoCon's, leveraging
+                the Civitai API. LoRA's, or "Learning Oriented Representations of Artifacts," are machine learning
+                models crucial for AI Art generation.</p>
+              <p>The challenge arose from inaccuracies in Civitai's API filters, which erroneously included additional
+                model versions like SD1.0 and SD1.1 alongside versions 1.4 and 1.5. To address this issue, I developed a
+                sophisticated filtration system that accurately identifies and removes these extraneous models, ensuring
+                users can access only the intended versions.</p>
+              <div class="row reset-margin add-top-margin">
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                  <img src="images/project/lora-downloader/lora-example.png" class="img-fluid mobile"
+                    alt="LoRA example">
+                </div>
+                <div class="col-lg-7 mx-auto col-md-6 col-12">
+                  <img src="images/project/lora-downloader/downloads.png" class="img-fluid add-top-margin"
+                    alt="LoRA download">
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-12">
-            <h3 class="mb-5 text-center add-top-margin">Tech</h3>
-            <div id="markdown-content-tech"></div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-12">
-            <h3 class="mb-5 text-center add-top-margin">Skills</h3>
-            <div id="markdown-content-skills"></div>
-          </div>
-        </div>
-      </div>
-      <br>
-    </section>
-    
-
-    <!-- CONTACT -->
-    <section class="contact section-padding pt-0" id="contact">
-      <div class="container">
-        <h3 class="mb-4 text-center add-top-margin">Contact Me</h3>
-        <div class="row">
-
           <div class="col-lg-6 col-md-6 col-12">
-            <form
-            action="https://formspree.io/f/mqkrprkl"
-            method="POST"
-            class="contact-form webform"
-          >
-          <div class="form-group d-flex flex-column-reverse">
-            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-
-            <label for="name" class="webform-label">Full Name</label>
+            <div class="col-12">
+              <p>Moreover, to enhance user experience and streamline AI Art testing, I implemented features to download
+                cover images and extract trigger words associated with each LoRA model. These trigger words, categorised
+                based on user selection, facilitate batch testing and experimentation, optimising the creative process.
+              </p>
+              <img src="images/project/lora-downloader/webpage.png" class="about-image img-fluid" alt="LoRA webpage">
+              <p class="add-top-margin">Beyond its functional utility, this project served as a valuable opportunity for
+                personal growth and skill development. By designing and implementing both frontend and backend
+                components, I honed my proficiency in web development and expanded my knowledge of API integration.</p>
+              <div class="col-12">
+                <div class="icon-list">
+                  <img src="images/logos/HTML5.svg" alt="HTML5 Logo" class="icon-image">
+                  <img src="images/logos/CSS3.svg" alt="CSS3 Logo" class="icon-image">
+                  <img src="images/logos/JavaScript.svg" alt="JavaScript Logo" class="icon-image">
+                  <img src="images/logos/NodeJS.svg" alt="NodeJS Logo" class="icon-image">
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="form-group d-flex flex-column-reverse">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+        </div>
+      </div>
+    </div>
 
-            <label for="email" class="webform-label">Your Email</label>
+    <div class="project-stagnation-1">
+      <div class="container about section-padding">
+        <div class="row reset-margin">
+          <div class="col-lg-6 mx-auto col-md-6 col-12">
+            <div class="col-12">
+              <h3 class="mb-4 mobile">AWS deployed Webapp - MineDev</h3>
+              <p class="mobile project-subheading">university project (solo)</p>
+              <p>MineDev is a web application designed to support Minecraft Datapack & Resource pack developers in their
+                creations and facilitate sharing with the Minecraft community. Utilizing Amazon Web Services (AWS)
+                infrastructure, MineDev offers a range of tools.</p>
+              <p>The project leverages AWS services like Elastic Beanstalk, API Gateway, Lambda, DynamoDB, and S3 to
+                ensure scalability, reliability, and seamless functionality. Additionally, testing and deployment were
+                facilitated by tools such as Boto3 for AWS automation, Gunicorn for deploying Python web applications,
+                Putty for SSH connectivity, FileZilla for file transfer, and Jinja for templating.</p>
+            </div>
           </div>
-          <div class="form-group d-flex flex-column-reverse">
-            <textarea class="form-control" rows="5" name="message" id="message" placeholder="Your Message"></textarea>
+          <div class="col-lg-6 mx-auto col-md-6 col-12">
+            <div class="col-12">
+              <p>Minedev System Architecture</p>
+              <div class="add-top-margin lucidchart-container">
+                <img src="images/project/minedev/system-architecture.jpeg" class="lucidchart-fallback-image"
+                  alt="lucidchart system architecture">
+                <iframe allowfullscreen frameborder="0"
+                  src="https://lucid.app/documents/embedded/7743ef8b-027c-4a38-9901-88c0b76cb18b"
+                  id="lucidchart-frame"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="icon-list">
+            <img src="images/logos/FileZilla.svg" alt="FileZilla Logo" class="icon-image">
+            <img src="images/logos/PuTTY.svg" alt="PuTTY Logo" class="icon-image">
+            <img src="images/logos/AWS.svg" alt="AWS Logo" class="icon-image">
+            <img src="images/logos/AWS/API-Gateway.svg" alt="API-Gateway Logo" class="icon-image">
+            <img src="images/logos/AWS/DynamoDB.svg" alt="DynamoDB Logo" class="icon-image">
+            <img src="images/logos/AWS/S3.svg" alt="S3 Logo" class="icon-image">
+            <img src="images/logos/AWS/Elastic-Beanstalk.svg" alt="Elastic-Beanstalk Logo" class="icon-image">
+            <img src="images/logos/AWS/Lambda.svg" alt="Lambda Logo" class="icon-image">
+            <img src="images/logos/HTML5.svg" alt="HTML5 Logo" class="icon-image">
+            <img src="images/logos/CSS3.svg" alt="CSS3 Logo" class="icon-image">
+            <img src="images/logos/React.svg" alt="React Logo" class="icon-image">
+            <img src="images/logos/Jinja_0.svg" alt="Jinja Logo" class="icon-image">
+            <img src="images/logos/Boto3_0.svg" alt="Boto3 Logo" class="icon-image">
+            <img src="images/logos/Mojang_Studios.svg" alt="Mojang Studios Logo" class="icon-image">
+          </div>
+        </div>
+        <div class="faq add-top-margin">
+          <h5 style="margin-left:15px">Pages of MineDev</h5>
+          <div class="row pc-anti-flex reset-margin">
+            <div class="col-lg-12 col-12">
+              <div class="accordion" id="accordionExample_2">
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2" type="button" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseFour">
+                        Book Gen & Localization
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
+                    data-parent="#accordionExample_2">
+                    <div class="card-body">
+                      <div class="row reset-margin">
+                        <div class="col-lg-5 mx-auto col-md-6 col-12">
+                          <div id="book-styling">
+                            <div class="textarea-container">
+                              <img src="images/project/minedev/book_background.png" alt="Book Background Image"
+                                class="book-background">
+                              <textarea name="book_text" id="book-text" placeholder="Book text goes here" rows="5"
+                                cols="50" required></textarea><br>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-5 mx-auto col-md-6 col-12 add-top-margin">
+                          <p>Utilising a Python library for translations and a custom made JSON string text generator,
+                            users are able to translate text into another language and send the result to the book
+                            generator page. This tool generates commands that can be executed in Minecraft to create a
+                            book item with custom content sporting coloured text formatting and more.</p>
+                          <p class="add-top-margin">type onto the paper for a bare bones example of this functionality
+                          </p>
+                        </div>
+                        <div class="col-lg-12 col-12">
+                          <p style="font-family:Arial; text-align: center;">↶ command output ↷</p>
+                          <div class="mx-auto add-top-margin">
+                            <div id="book-text-output">
+                              <div class="mobile break-word"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Block Information
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                    data-parent="#accordionExample_2">
+                    <div class="card-body">
+                      <div class="row reset-margin">
+                        <div class="col-lg-5 mx-auto col-md-6 col-12">
+                          <p>In DynamoDB, MineDev hosts Minecraft block and item information initially scraped from the
+                            Minecraft Wiki. Using the search or random function, users can find information on any
+                            Minecraft item, block, or topic that has an associated wiki page.</p>
+                          <p>Interaction with DynamoDB is managed by AWS Lambda functions and API Gateway.</p>
+                        </div>
+                        <div class="col-lg-5 mx-auto col-md-6 col-12">
+                          <img src="images/project/minedev/block-information.webp" class="about-image img-fluid mobile"
+                            alt="LoRA example">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Server & Player Lookup
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample_2">
+                    <div class="card-body">
+                      <div class="row reset-margin">
+                        <div class="col-lg-5 mx-auto col-md-6 col-12">
+                          <p>The Server Lookup and Player Lookup pages of MineDev serve distinct yet complementary
+                            functions. Server lookup allows users to check the status of Minecraft servers by sending
+                            requests via the Server List Ping API, providing details such as player count and server
+                            version. Concurrently, player lookup retrieves player information and skin textures using
+                            the Mojang API based on the provided username or UUID</p>
+                        </div>
+                        <div class="col-lg-5 mx-auto col-md-6 col-12">
+                          <div class="player-lookup-container">
+                            <h5>Player Lookup</h5>
+                            <input type="text" id="playerName" placeholder="search user">
+                            <button onclick="lookupPlayer()">Search</button>
+                            <div id="playerInfo"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSeven">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link-2 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Networking Forum
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                    data-parent="#accordionExample_2">
+                    <div class="card-body">
+                      <div class="row reset-margin">
+                        <p>The Networking page of MineDev provides a platform for users to share their latest creations
+                          and engage with the Minecraft community. Users can post content, including images and file
+                          downloads, directly onto the singular forum-style interface. Content uploads are managed
+                          through AWS S3, where images and files are stored and accessed.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-right">
+          <p>I received a grade of 88 for this class</p>
+        </div>
+      </div>
+    </div>
 
-            <label for="message" class="webform-label">Message</label>
+    <div class="project-stagnation-0">
+      <div class="container about section-padding">
+        <div class="row reset-margin">
+          <div class="col-lg-5 mx-auto col-md-6 col-12">
+            <div class="col-12">
+              <h3 class="mb-4 mobile">Language Lookup-Table Translator/Generator</h3>
+              <p class="mobile project-subheading">personal project</p>
+              <p>A multilingual translation utility tailored for application and game development that generates JSON
+                dictionaries serving as lookup tables. It harnesses various resources, such as the <strong>Translate
+                  library</strong>, <strong>Hugging Face models</strong>, <strong>Azure API</strong>, and
+                <strong>Docker</strong> technology, to translate text across 120 languages. Employing multiple
+                translation methods extends beyond conventional Google Translate coverage limitations and allows for
+                custom JSON dictionary translations and allows the inclusion of special unicode characters.</p>
+              <h5 class="mobile">Lookup Table Use Example</h5>
+              <img src="images/project/lang/card_spanish.png" class="img-fluid" alt="translation example">
+            </div>
           </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="col-12">
+              <img src="images/project/lang/lang_translations.png" class="about-image img-fluid add-top-margin"
+                alt="language translations">
+              <p>The produced lookup tables host translation codes that serve localization needs in platforms like
+                gaming, software, and web environments. Rather than aiming to revolutionize language barriers, the
+                utility embraces simplicity, offering a cost-effective, hobbyist-friendly approach to facilitating
+                multilingual communication within these frameworks.</p>
+            </div>
+            <div class="col-12">
+              <div class="icon-list">
+                <img src="images/logos/Python.svg" alt="Python Logo" class="icon-image">
+                <img src="images/logos/GoogleTranslate.svg" alt="GoogleTranslate Logo" class="icon-image">
+                <img src="images/logos/JSON.svg" alt="JSON Logo" class="icon-image">
+                <img src="images/logos/Azure.svg" alt="Azure Logo" class="icon-image">
+                <img src="images/logos/huggingface.svg" alt="huggingface Logo" class="icon-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container about section-padding">
+        <div class="text-center col-12">
+          <h6>There are more projects & additional details for each one, so don't hesitate to ask me in an interview ;)
+          </h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ToTeSk -->
+  <section class="about project-stagnation-1" id="tech">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <h3 class="mb-5 text-center add-top-margin">Tools</h3>
+          <div id="markdown-content-tools"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <h3 class="mb-5 text-center add-top-margin">Tech</h3>
+          <div id="markdown-content-tech"></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <h3 class="mb-5 text-center add-top-margin">Skills</h3>
+          <div id="markdown-content-skills"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="contact section-padding pt-0" id="contact">
+    <div class="container">
+      <h3 class="mb-4 text-center add-top-margin">Contact Me</h3>
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-12">
+          <form action="https://formspree.io/f/mqkrprkl" method="POST" class="contact-form webform">
+            <div class="form-group d-flex flex-column-reverse">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+
+              <label for="name" class="webform-label">Full Name</label>
+            </div>
+            <div class="form-group d-flex flex-column-reverse">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+
+              <label for="email" class="webform-label">Your Email</label>
+            </div>
+            <div class="form-group d-flex flex-column-reverse">
+              <textarea class="form-control" rows="5" name="message" id="message" placeholder="Your Message"></textarea>
+
+              <label for="message" class="webform-label">Message</label>
+            </div>
             <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
           </form>
-          </div>
-
-            <div class="mx-auto col-lg-4 col-md-6 col-12">
-                <h3 class="my-4 pt-4 pt-lg-0 mobile">Say hello</h3>
-
-                <p class="mb-1">(+61) 402 959 564</p>
-
-                <p>
-                    <a href="mailto:lennymcdonald247@hotmail.com">
-                        lennymcdonald247@hotmail.com
-                    <i class="fas fa-arrow-right custom-icon"></i>
-                    </a>
-                </p>
-
-                <ul class="social-links mt-2 mobile">
-                    <!-- <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li> -->
-                    <!-- <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li> -->
-                    <!-- <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li> -->
-                    <li><a href="https://github.com/lenover12" rel="noopener" class="fab fa-github"></a></li>
-                    <li><a href="https://www.linkedin.com/in/leonard-mcdonald/" rel="noopener" class="fab fa-linkedin"></a></li>
-                    <!-- <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li> -->
-                </ul>
-                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
-            </div>
-
         </div>
+
+        <div class="mx-auto col-lg-4 col-md-6 col-12">
+          <h3 class="my-4 pt-4 pt-lg-0 mobile">Say hello</h3>
+
+          <p class="mb-1">(+61) 402 959 564</p>
+
+          <p>
+            <a href="mailto:lennymcdonald247@hotmail.com">
+              lennymcdonald247@hotmail.com
+              <i class="fas fa-arrow-right custom-icon"></i>
+            </a>
+          </p>
+
+          <ul class="social-links mt-2 mobile">
+            <!-- <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li> -->
+            <!-- <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li> -->
+            <!-- <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li> -->
+            <li><a href="https://github.com/lenover12" rel="noopener" class="fab fa-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/leonard-mcdonald/" rel="noopener" class="fab fa-linkedin"></a></li>
+            <!-- <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li> -->
+          </ul>
+          <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
 
-     <!-- SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/marked.min.js"></script>
-    <script src="js/custom.js"></script>
+  <!-- SCRIPTS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/marked.min.js"></script>
+  <script src="js/custom.js"></script>
 
-    <script src="js/render-markdown.js"></script>
-    <script src="js/quote-array.js"></script>
-    <script src="js/mindev-book-container.js"></script>
-    <script src="js/lucidchart-container.js"></script>
-    <script src="js/player-lookup.js"></script>
-    <script src="js/accordion-scroll.js"></script>
-  </body>
+  <script src="js/render-markdown.js"></script>
+  <script src="js/quote-array.js"></script>
+  <script src="js/mindev-book-container.js"></script>
+  <script src="js/lucidchart-container.js"></script>
+  <script src="js/player-lookup.js"></script>
+  <script src="js/accordion-scroll.js"></script>
+</body>
+
 </html>
